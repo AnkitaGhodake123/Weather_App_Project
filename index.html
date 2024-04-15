@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Weather App</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="Weather-app">
+			<h2>Weather Forcast</h2>
+			<br>
+			<div>
+				<label for="city">Enter a City Name :</label>
+				<input type="text" id="cityname" required><br><br>
+				<button type="button" onclick="fetchData()" class="btn">Fetch</button>
+			</div>
+			<br>
+			<div>
+				<span><b>City : </b><span id="city"></span></span><br>
+				<span><b>Description : </b><span id="desc"></span></span><br>
+				<span><b>Wind Speed : </b><span id="windspeed"></span> m/hr</span><br>
+				<span><b>Temperature : </b><span id="temp"></span> deg/cel</span><br>
+				<span><b>Humidity : </b><span id="hum"></span> deg/cel</span><br>
+				
+			</div>
+		</div>
+	</div>
+  <script src="WeatherAppProject.js"></script>
+</body>
+</html>
